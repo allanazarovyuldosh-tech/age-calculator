@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -7,10 +8,32 @@
 </head>
 <body>
   <h1>Онлайн калькулятор возраста</h1>
-  
-  <!-- Здесь твой калькулятор -->
-  
+
+  <label for="birthdate">Введите дату рождения:</label>
+  <input type="date" id="birthdate">
+  <button onclick="calculateAge()">Рассчитать возраст</button>
+
+  <p id="result"></p>
+
   <div class="footer">© 2026 Yuldosh</div>
+
+  <script>
+    function calculateAge() {
+      const birthdate = document.getElementById("birthdate").value;
+      if (!birthdate) {
+        document.getElementById("result").innerText = "Введите дату!";
+        return;
+      }
+      const today = new Date();
+      const birth = new Date(birthdate);
+      let age = today.getFullYear() - birth.getFullYear();
+      const m = today.getMonth() - birth.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+        age--;
+      }
+      document.getElementById("result").innerText = "Ваш возраст: " + age + " лет";
+    }
+  </script>
 </body>
 </html>
 
