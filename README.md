@@ -1,6 +1,21 @@
-<select id="brand">
-  <option>Samsung</option>
-  <option>Xiaomi</option>
-  <option>Realme</option>
-  <option>Huawei</option>
-</select>
+# Калькулятор возраста
+
+Простой учебный проект на HTML, CSS и JavaScript.
+
+## 🚀 Возможности
+- Ввод даты рождения
+- Автоматический расчёт возраста
+- Отображение результата на странице
+- Картинка сверху для визуального оформления
+
+## 📸 Скриншот
+![Сайт](Copilot_20260328_121229.png)
+
+## 🔧 Запуск
+1. Откройте [сайт на GitHub Pages](https://allanazarovyuldosh-tech.github.io/age-calculator).
+2. Введите дату рождения.
+3. Нажмите кнопку **Рассчитать**.
+
+## 📚 Цель проекта
+Учебная практика: освоение GitHub Pages, работа с HTML и подключение изображений.
+
