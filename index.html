@@ -29,8 +29,31 @@
 
       document.getElementById("result").innerText = "Ваш возраст: " + age + " лет";
     }
-  </script>
-</body>
+  </script><script>
+  function calculateAge() {
+    const birthDate = document.getElementById("birthdate").value;
+    if (!birthDate) return;
+
+    const today = new Date();
+    const bday = new Date(birthDate);
+
+    let age = today.getFullYear() - bday.getFullYear();
+    const m = today.getMonth() - bday.getMonth();
+
+    if (m < 0 || (m === 0 && today.getDate() < bday.getDate())) {
+      age--;
+    }
+
+    document.getElementById("result").innerText = "Ваш возраст: " + age + " лет";
+  }
+</script>
+
+</body><img src="Copilot_20260328_121229.png" alt="Моя картинка" width="300">
+<h1>Калькулятор возраста</h1>
+<input type="date" id="birthdate">
+<button onclick="calculateAge()">Рассчитать</button>
+<p id="result"></p>
+
 </html>
 
 
