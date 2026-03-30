@@ -28,23 +28,7 @@
       }
 
       document.getElementById("result").innerText = "Ваш возраст: " + age + " лет";
-    }
-  </script><script>
-  function calculateAge() {
-    const birthDate = document.getElementById("birthdate").value;
-    if (!birthDate) return;
-
-    const today = new Date();
-    const bday = new Date(birthDate);
-
-    let age = today.getFullYear() - bday.getFullYear();
-    const m = today.getMonth() - bday.getMonth();
-
-    if (m < 0 || (m === 0 && today.getDate() < bday.getDate())) {
-      age--;
-    }
-
-    document.getElementById("result").innerText = "Ваш возраст: " + age + " лет";
+    
   }
 </script>
 
