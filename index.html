@@ -1,35 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>Калькулятор возраста</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Онлайн калькулятор возраста</h1>
-
-  <label for="birthdate">Введите дату рождения:</label>
+  <img src="Copilot_20260328_121229.png" alt="Логотип" width="300">
+  <h1>Калькулятор возраста</h1>
   <input type="date" id="birthdate">
-  <button onclick="calculateAge()">Рассчитать возраст</button>
-
+  <button onclick="calculateAge()">Рассчитать</button>
   <p id="result"></p>
-
-  <div class="footer">© 2026 Yuldosh</div>
 
   <script>
     function calculateAge() {
-      const birthdate = document.getElementById("birthdate").value;
-      if (!birthdate) {
-        document.getElementById("result").innerText = "Введите дату!";
-        return;
-      }
+      const birthDate = document.getElementById("birthdate").value;
+      if (!birthDate) return;
+
       const today = new Date();
-      const birth = new Date(birthdate);
-      let age = today.getFullYear() - birth.getFullYear();
-      const m = today.getMonth() - birth.getMonth();
-      if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+      const bday = new Date(birthDate);
+
+      let age = today.getFullYear() - bday.getFullYear();
+      const m = today.getMonth() - bday.getMonth();
+
+      if (m < 0 || (m === 0 && today.getDate() < bday.getDate())) {
         age--;
       }
+
       document.getElementById("result").innerText = "Ваш возраст: " + age + " лет";
     }
   </script>
