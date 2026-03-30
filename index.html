@@ -1,17 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>Калькулятор возраста</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color: #f0f0f0;
+    }
+    img {
+      margin-bottom: 20px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 5px;
+      font-size: 16px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
-  <img src="Copilot_20260328_121229.png" alt="Логотип" width="300">
+  <!-- Картинка -->
+  <img src="Copilot_20260328_121229.png" alt="Моя картинка" width="300">
+
+  <!-- Один калькулятор -->
   <h1>Калькулятор возраста</h1>
   <input type="date" id="birthdate">
   <button onclick="calculateAge()">Рассчитать</button>
   <p id="result"></p>
 
+  <!-- Один скрипт -->
   <script>
     function calculateAge() {
       const birthDate = document.getElementById("birthdate").value;
@@ -28,16 +61,10 @@
       }
 
       document.getElementById("result").innerText = "Ваш возраст: " + age + " лет";
-    
-  }
-</script>
-
-</body><img src="Copilot_20260328_121229.png" alt="Моя картинка" width="300">
-<h1>Калькулятор возраста</h1>
-<input type="date" id="birthdate">
-<button onclick="calculateAge()">Рассчитать</button>
-<p id="result"></p>
-
+    }
+  </script>
+</body>
 </html>
+
 
 
