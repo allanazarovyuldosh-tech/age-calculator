@@ -1,5 +1,17 @@
-# Калькулятор возраста
+# Age Calculator / Калькулятор возраста
 
+Простой и стильный калькулятор возраста, построенный на **HTML, CSS и JavaScript**.  
+A simple and stylish age calculator built with **HTML, CSS, and JavaScript**.
+
+---
+
+## 🚀 Демонстрация / Demo
+Введите дату рождения, и калькулятор рассчитает ваш возраст в годах, месяцах и днях.  
+Enter your date of birth, and the calculator will compute your age in years, months, and days.
+## 📦 Установка / Installation
+1. Склонируйте репозиторий / Clone the repository:
+   ```bash
+   git clone https://github.com/allanazarovyuldosh-tech/age-calculator.git
 Простой учебный проект на HTML, CSS и JavaScript.
 
 ## 🚀 Возможности
