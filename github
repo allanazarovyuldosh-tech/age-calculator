@@ -1,3 +1,2 @@
  workflows
-pages.eml
-.github/workflows/pages.yml
+pages.yml
