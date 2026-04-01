@@ -1,3 +1,19 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [main]
 
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+          bundler-cache: true
+      - uses: actions/jekyll-build-pages@v1
+      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/deploy-pages@v2
 
 
