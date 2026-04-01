@@ -3,7 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main   # или master, если у тебя основная ветка так называется
+  workflow_dispatch:   # добавляет кнопку "Run workflow" для ручного запуска
 
 jobs:
   deploy:
@@ -18,9 +19,10 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./
+          path: ./   # корень репозитория, где лежит index.html
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
 
