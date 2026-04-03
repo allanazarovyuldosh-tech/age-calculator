@@ -6,7 +6,7 @@
 ---
 
 ## 📸 Скриншот
-![Age Calculator Screenshot](images/screenshot.png)
+Copilot_20260328_121229.png
 
 ---
 
