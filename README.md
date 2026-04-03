@@ -5,9 +5,8 @@
 
 ---
 
-## 📸 Скриншот
-Copilot_20260328_121229.png
-
+## 📸 Скриншоt
+![Age Calculator Screenshot](images/screenshot.png)
 ---
 
 ## ✨ Особенности
