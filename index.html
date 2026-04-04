@@ -21,17 +21,45 @@
   <script src="script.js"></script>
 </body>
 </html>
+body {
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator-container {
+  width: 400px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 20px auto 0;
+}
 
 
   <script>
-    function calculateAge() {
-      const dob = document.getElementById('dob').value;
-      if (!dob) return;
-      const birthDate = new Date(dob);
-      const diff = Date.now() - birthDate.getTime();
-      const ageDate = new Date(diff);
-      const age = Math.abs(ageDate.getUTCFullYear() - 1970);
-      document.getElementById('result').textContent = "Ваш возраст: " + age;
+   function calculateAge() {
+  const dob = document.getElementById('dob').value;
+  if (!dob) return;
+  const birthDate = new Date(dob);
+  const diff = Date.now() - birthDate.getTime();
+  const ageDate = new Date(diff);
+  const age = Math.abs(ageDate.getUTCFullYear() - 1970);
+  document.getElementById('result').textContent = "Ваш возраст: " + age;
+}
+
     }
   </script>
 </body>
