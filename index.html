@@ -25,9 +25,26 @@
 <body>
   <div class="container">
     <h1>Age Calculator</h1>
-    <!-- Your calculator form and script here -->
-    <script src="script.js"></script>
+
+    <input type="date" id="birthdate">
+    <button onclick="calculateAge()">Calculate</button>
+    <p id="result"></p>
   </div>
+
+  <script>
+    function calculateAge() {
+      const birthdate = document.getElementById('birthdate').value;
+      if (!birthdate) return;
+      const today = new Date();
+      const dob = new Date(birthdate);
+      let age = today.getFullYear() - dob.getFullYear();
+      const m = today.getMonth() - dob.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+        age--;
+      }
+       document.getElementById('result').textContent = "Your age is " + age;
+    }
+     </script>
 </body>
 </html>
 
