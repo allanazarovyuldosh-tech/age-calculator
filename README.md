@@ -14,8 +14,8 @@
 - Чистый интерфейс
 - Лёгкая структура проекта
 - Готово к публикации через GitHub Pages
-## 📸 Скриншот
-https://github.com/allanazarovyuldosh-tech/age-calculator/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-31%20151933.png?raw=true
+м<img width="598" height="574" alt="image" src="https://github.com/user-attachments/assets/6c6e1653-7ad1-459f-8cc9-8a353c850f95" />
+
 ## ✨ Особенности
 - Быстрый и лёгкий
 - Работает прямо в браузере
