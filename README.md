@@ -14,10 +14,8 @@
 - Чистый интерфейс
 - Лёгкая структура проекта
 - Готово к публикации через GitHub Pages
-## 📸 Скриншоt
-![Age Calculator Screenshot](images/screenshot.png)
-https://github.com/allanazarovyuldosh-tech/age-calculator/blob/main/Copilot_20260330_153458.png?raw=true
-
+## 📸 Скриншот
+https://github.com/allanazarovyuldosh-tech/age-calculator/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-31%20151933.png?raw=true
 ## ✨ Особенности
 - Быстрый и лёгкий
 - Работает прямо в браузере
