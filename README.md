@@ -14,7 +14,7 @@
 - Чистый интерфейс
 - Лёгкая структура проекта
 - Готово к публикации через GitHub Pages
-м<img width="598" height="574" alt="image" src="https://github.com/user-attachments/assets/6c6e1653-7ad1-459f-8cc9-8a353c850f95" />
+Снимок экрана 2026-04-07 105844.png
 
 ## ✨ Особенности
 - Быстрый и лёгкий
