@@ -5,7 +5,8 @@
 Простой и удобный калькулятор возраста.  
 [Попробовать онлайн](https://allanazarovyuldosh-tech.github.io/age-calculator/)
 ## Демонстрация
-<img width="1024" height="720" alt="image" src="https://github.com/user-attachments/assets/f46cfd33-df13-4c89-a6dd-d7722db85ec3" /
+<img width="1024" height="623" alt="image" src="https://github.com/user-attachments/assets/1863555b-8856-4727-9906-fa2452cb79ac" />
+
 ---
 ## Особенности
 - Чистый интерфейс
