@@ -6,6 +6,7 @@
 [Попробовать онлайн](https://allanazarovyuldosh-tech.github.io/age-calculator/)
 ## Демонстрация
 Снимок экрана 2026-04-22 112950.png
+<img width="1025" height="683" alt="image" src="https://github.com/user-attachments/assets/6050ba71-3feb-4066-8de3-1101fcd6a446" />
 
 ---
 ## Особенности
