@@ -1,19 +1,21 @@
 body {
   margin: 0;
-  height: 100vh;              /* высота на весь экран */
-  display: flex;              /* включаем flex-контейнер */
-  justify-content: center;    /* горизонтальное центрирование */
-  align-items: center;        /* вертикальное центрирование */
-  background: #f0f0f0;        /* фон для наглядности */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("background.jpg") no-repeat center center;
+  background-size: cover;   /* картинка растягивается на весь экран */
 }
 
 .calculator {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.85); /* полупрозрачный блок */
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
   text-align: center;
 }
+
 
 
 
