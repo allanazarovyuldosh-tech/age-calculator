@@ -1,1 +1,60 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Контейнер калькулятора */
+.calculator {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 300px;
+}
+
+/* Заголовок */
+.calculator h1 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Поля ввода */
+.calculator input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Кнопка */
+.calculator button {
+  width: 100%;
+  padding: 10px;
+  background: #0078d7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background: #005fa3;
+}
+
+/* Результат */
+.result {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #222;
+}
 
